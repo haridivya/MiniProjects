@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form>
+        <center>
+            <h2>Student Registration Form</h2>
+        </center>
+        <label for="name">Full Name : </label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name "required>
+        <br><br>
+        <label for="mail">Email : </label>
+        <input type="mail" id="mail" name="mail"  placeholder="Enter Your Email "required>
+        <br><br>
+        <label for="pass">Password  </label>
+        <input type="password" id="pass" name="pass" required>
+        <br><br>
+        <label for="phone">Phone : </label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Your Number " required>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="gender">Gender : </label><br><br>
+        <input type="radio" value="Male" name="gender">Male
+        <input type="radio" value="Female" name="gender">Female
+        <input type="radio" value="Others" name="gender">Others
+        <br><br>
+        <label >Skills : </label><br><br>
+        <input type="checkbox" name="skill" value="Python">Python
+        <input type="checkbox" name="skill" value="Java">Java
+        <input type="checkbox" name="skill" value="DSA">DSA
+        <input type="checkbox" name="skill" value="sql">SQL
+        <input type="checkbox" name="skill" value="JavaScript">JavaScript
+        <br><br>
+        <label>Course : </label><br><br>
+        <select  name="course" required>
+            <option  name="course" value="cse">CSE</option>
+            <option  name="course" value="cseds">CSE(DS)</option>
+            <option  name="course" value="cseai">CSE(AI)</option>
+            <option  name="course" value="ece">ECE</option>
+            <option  name="course" value="eee">EEE</option>
+            <option  name="course" value="civil">Civil</option>
+            <option  name="course" value="Mech">Mechnical</option>
+        </select>
+        <br><br>
+        <label>Address : </label>
+        <br><br>
+        <textarea rowsize="10" placeholder="Enter the Full Address" required></textarea>
+        <br><br>
+        <label>Profile Picture : </label><br><br>
+        <input type="file">
+        <br><br>
+        <label>Favorite Color : </label><br><br>
+        <input type="color" >
+        <br><br>
+        <label>Age : </label>
+        <input type="range" min="18" max="60">
+        <br><br>
+        <label>Website : </label>
+        <input type="url" placeholder="Enter the URL">
+        <br><br>
+        <label>Search : </label>
+        <input type="search" placeholder="Search here">
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <br><br>
+        <input type="checkbox" required>I agree to the Terms and Conditions
+        </form>
+
+    </body>
+</html>
